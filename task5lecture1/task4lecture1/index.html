@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f0f0f0; /* Set the background color for the page */
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .video-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .video {
+            width: 40%;
+        }
+
+        .video-description {
+            width: 40%; 
+                        text-align: center;
+        }
+
+        .video-left {
+            order: 1; 
+        }
+
+        .video-right {
+            order: 2; 
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container video-left">
+        <div class="video">
+            <iframe width="420" height="236" src="https://www.youtube.com/watch?v=ygdVEIrVnIk" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-description"><br><br><br>
+            <p>this is my fav song</p>
+        </div>
+    </div>
+
+    <div class="video-container video-right">
+        <div class="video">
+            <iframe width="420" height="236" src="https://www.youtube.com/watch?v=S3fTw_D3l10" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-description"><br><br><br>
+            <p>this is the 2nd fav song</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    display: flex;
+   background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+.button{
+    background-color: brown;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin: 10px ;
+    padding: 10px 20px;
+}
+.button:hover{background-color: rgb(27, 5, 10);}
+.name{font-family: normal;
+font-size: 24px;
+}
+.first-letter-bold{font-weight: bold;}
